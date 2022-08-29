@@ -8,7 +8,7 @@
     color: black;
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
@@ -25,7 +25,7 @@
     background-color:inherit;
     border: none;
     font-family: 'Courier New', Courier, monospace;
-    padding: 14px 16px;
+    padding: 20px;
     margin:0;
 }
 .ourteam-content , .expertise-content , .careers-content {
@@ -58,4 +58,40 @@
     display: block;
 
  }
+
+.search-bar{
+    width: 100%;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    display: inline;
+    border-radius: 60px;
+    padding: 5px;
+    backdrop-filter: blur(4);
+}
+.search-bar input{
+    background:transparent;
+    flex: 1;
+    border:none;
+    outline: none;
+    padding: 20px 15px;
+    color: wheat;
+    font-size: 20px;
+}
+::placeholder {
+    color:#cac7ff;
+}
+.search-bar button img {
+    width: 20px;
+}
+.search-bar button {
+    height: 10px;
+    width: 10x;
+    border: none;
+    outline: none;
+    background-color: initial;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
  ________________/*code here to make the nav responsive */
+ 
