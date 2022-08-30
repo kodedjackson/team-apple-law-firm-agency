@@ -1,3 +1,58 @@
+/*{
+    margin:0;
+    padding:0;
+    font-family: 'Droid-serif', sans-serif;
+}
+.topnav{
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow:0px 2px 2px rgb(175, 174, 174);
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center ;
+}
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: purple;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+
+}*/
 .topnav{
     background-color: #ffffff;
     overflow: hidden;
