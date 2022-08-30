@@ -94,14 +94,15 @@
     cursor: pointer;
 
 }
- ________________/*code here to make the nav responsive */__________
+/*------------code here to make the nav responsive ------------*/
  
-__________________________________________
- /*code here to make the nav responsive */
+
+ /*--------------code here to make the nav responsive-------------- */
 
 .testimonial-background{
     background-color: #875a98;
     margin-top: 300px;
+    
 }
  body {
    font-family: 'Droid Serif', serif;
@@ -367,4 +368,14 @@ __________________________________________
    }
  }
 /* 6de889ab1f25a1fdaefbe883930801466f131045 */
+
+
+/*-------footer------*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
 
