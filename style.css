@@ -449,7 +449,7 @@ nav img{
 
 
 footer{
-  background: rgb(105, 27, 105);
+  background: #592a51;
   height: auto;
   width: 100vw;
   padding-top: 20px;
@@ -502,6 +502,6 @@ footer{
 }
 
 .footer-bottom{
-  background: rgb(131, 2, 112);
+  background: hsl(310, 36%, 23%);
   
 }
