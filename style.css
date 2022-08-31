@@ -137,6 +137,12 @@ nav img{
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+
+.search-bar img {
+  margin: 0px 5px 5px 0;
+  
+}
+
 ::placeholder {
     color:#950e9076;
 }
@@ -242,6 +248,63 @@ nav img{
    animation-play-state: paused;
  }
  
+/* contact us form */
+
+
+#contact-us-form {
+  margin: 25px auto !important;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 15px;
+  outline: 1px solid #000000;
+}
+
+#contact-us-form div {
+  margin: 0 auto 10px;
+  width: 100%;
+  
+}
+
+#contact-us-form input:focus {
+  
+  box-shadow: none;
+  border: 1px solid #686565;
+}
+
+
+#contact-us-form textarea, input {
+  outline: 1px solid #686565;
+}
+
+#contact-us-form textarea {
+  margin-top: 10px;
+  resize: none;
+  height: 150px;
+}
+
+#contact-us-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #686565;
+}
+
+
+
+
+#contact-us-form button {
+  display: block;
+  width: 5rem;
+  margin: 0 auto;
+  background-color: rgb(0,0,0);
+  border: 0;
+  color: rgb(255,255,255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
  @keyframes cycle {
    0% {
      top: 0px;
