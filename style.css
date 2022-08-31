@@ -1,4 +1,4 @@
-/*{
+*{
     margin:0;
     padding:0;
     font-family: 'Droid-serif', sans-serif;
@@ -52,8 +52,8 @@ nav img{
     width: 100%;
 
 
-}*/
-.topnav{
+}
+/*.topnav{
     background-color: #ffffff;
     overflow: hidden;
     box-shadow:0px 2px 2px rgb(175, 174, 174);
@@ -156,7 +156,7 @@ nav img{
 }
 .navlogo {
  margin: 10px;
-}
+}*/
 /*------------code here to make the nav responsive ------------*/
  
 
