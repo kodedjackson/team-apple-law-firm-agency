@@ -61,7 +61,7 @@ nav img{
 .topnav .navv a{
     float: right;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     padding: 25px 8px;
@@ -163,7 +163,7 @@ nav img{
  /*--------------code here to make the nav responsive-------------- */
 
 .testimonial-background{
-  background-image: url('\gavel_3.jpg');
+  background-image: linear-gradient( rgba(4, 9, 30, 0.7), rgba(225, 225, 225, 0.1)),url('\gavel_3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
