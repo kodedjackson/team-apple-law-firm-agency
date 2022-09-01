@@ -124,26 +124,31 @@
 </div>
 
     <!--:::::::::::::::CONTACT US FORM:::::::::::::-->
-    <form action="" method="get" class="enquiry-form">
-      <h4>
-        For any enquiry, please fill up your details here.
-      </h4>
-      <div class="form-example">
-        <label for="name">Enter your name: </label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <div class="form-example">
-        <label for="email">Enter your email: </label>
-        <input type="email" name="email" id="email" required>
-      </div>
-      <div class="form-example">
-        <input type="submit" value="Submit">
-      </div>
-    </form>
-    
+
 
     <!--:::::::::::::::CONTACT US FORM:::::::::::::-->
-   
+<form id="contact-us-form" class="row form-control">
+  <div class="col-12">
+    <label for="name" class="form-label" >Name</label>
+    <input type="text" id="name" name="name" class="form-control">
+  </div>
+
+  <div class="col-12">
+    <label for="email" class="form-label" >Email Address</label>
+    <input type="email" id="email_add" name="email_add" class="form-control">
+  </div>
+
+
+  <div class="col-12">
+    <fieldset >
+        <label for="textarea" class="taxtarea">Let us Know Why You Would Like to Hire Us</label>
+        <textarea id="textarea" name="message" class="form-control"></textarea>
+    </fieldset>
+  </div>
+
+  <button type="submit" value="Submit" class="">Submit</button>
+</form>
+
     
 
 <!--:::::::::::::::FOOTER GOES HERE~::::::::::::-->
@@ -161,9 +166,7 @@
       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
       <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-     
+      <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
     </ul>
  </div>
  <div class="footer-bottom footer-content">
