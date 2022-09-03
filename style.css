@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*{
     margin:0;
     padding:0;
@@ -116,17 +115,17 @@ nav img{
 /*.topnav{
 =======
 }*/
-=======
->>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
+
+/*57a876b61666ce26d2fbb5b97542b019db5cfce5*/
 .topnav{
->>>>>>> 58cced456af3577945778d46175247ec8e152c41
+/*58cced456af3577945778d46175247ec8e152c41*/
     background-color: #ffffff;
     overflow: hidden;
     box-shadow:0px 2px 2px rgb(175, 174, 174);
 }
-.topnav .navv a{
+.topnav .navv a {
     position: relative;
-    left: 500px;
+    float: right;
     display: inline;
     color: black;
     text-align: center;
@@ -181,54 +180,14 @@ nav img{
     display: block;
   
 
- }
-
-
-.search-bar{
-    width: 100%;
-    max-width: 300px;
-    background: rgba(33, 31, 31, 0.427);
-    display: inline;
-    border-radius: 60px;
-    padding: 5px;
-    backdrop-filter: blur(4);
-    margin-left: 100px;
-
-}
-.search-bar input{
-    background:transparent;
-    flex: 1;
-    border:none;
-    outline: none;
-    padding: 20px 15px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-
-.search-bar img {
-  margin: 0px 5px 5px 0;
-  
-}
-
-::placeholder {
-    color:#950e9076;
-}
-.search-bar button img {
-    width: 20px;
-}
-.search-bar button {
-    height: 10px;
-    width: 10x;
-    border: none;
-    outline: none;
-    background-color: initial;
-    border-radius: 50%;
-    cursor: pointer;
-
-}
+ }    
 .navlogo {
  margin: 10px;
+ padding:5px;
 }
+
+
+
 /*------------code here to make the nav responsive ------------*/
 /* @media screen and (max-width: 600px) {
   .topnav ,.navv a:not(:first-child) , .ourteam .ourteambtn , .expertise .expertisebtn , .careers .careersbtn  {
@@ -280,12 +239,10 @@ nav img{
    text-align: center;
    padding-top: 100px;;
  }
-<<<<<<< HEAD
- .content-slider {  /*the size of the testimonial box*/
-=======
+ /*the size of the testimonial box*/
  
  .content-slider {
->>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
+/*57a876b61666ce26d2fbb5b97542b019db5cfce5*/
    width: 100%;
    height: 250px;
  }
@@ -549,12 +506,12 @@ nav img{
   margin: 0 auto;
   font-size: 15px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
- 
 }
 
 #contact-us-form div {
   margin: 0 auto 10px;
   width: 100%;
+  
   
 }
 
@@ -562,23 +519,28 @@ nav img{
   
   box-shadow: none;
   border: 1px solid #686565;
+  color: #875a98;
+
 }
 
 
 #contact-us-form textarea, input {
   outline: 1px solid #686565;
+  color: #875a98;
 }
 
 #contact-us-form textarea {
   margin-top: 10px;
   resize: none;
   height: 150px;
+
 }
 
 #contact-us-form textarea:focus {
   outline: none;
   box-shadow: none;
   border: 1px solid #686565;
+
 }
 
 
@@ -594,38 +556,32 @@ nav img{
   border-radius: 5px;
   padding: 5px;
 }
+#contact-us-form button:hover {
+  background-color:#875a98;
+  color:black;
+}
 
+ 
 /*-------footer------*/
-  .footer-content {
-    background: black;
-    padding: 5px;
-  }
-  .footer-content .socials {
-    text-align: center;
-  
-<<<<<<< HEAD
-}
-h3{
+.footer-content {
+  background-color: black;
   text-align: center;
+  padding: 2px;
 }
-=======
-  }
-  .footer-content .socials a {
-    color: #ccc;
-    padding: 0px 5px;
-    height: 10px;
-    width: 10px;
-    line-height: 20p;
-    text-align: center;
-    margin: 0.8px;
-    opacity: 0.80;
-    font-size: 20px;
-  }
-  .footer-content .socials a:hover{
-    color: #875a98;
-  }
-  .footer-content .copyright {
-    color: rgba(204, 204, 204, 0.553);
-    padding-top: 5px;
-  }
->>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
+.footer-content .socials  a {
+  color: #ccc;
+  padding: 0px 5px;
+  line-height: 20p;
+  text-align: center;
+  margin: 0.8px;
+  opacity: 0.80;
+  font-size: 20px;
+}
+.footer-content .socials  a:hover {
+  color: #875a98;
+}
+.footer-content .copyright {
+  color: rgba(204, 204, 204, 0.553);
+  padding-top: 5px;
+}
+/*57a876b61666ce26d2fbb5b97542b019db5cfce5*/
