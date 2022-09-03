@@ -497,6 +497,27 @@ nav img{
  }
 /* contact us form */
 /* contact us form */
+.contactus {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: black;
+}
+.contactus .contactus-d {
+  text-align: center;
+  padding: 0px 10px;
+  padding-top: 100px;
+
+}
+.contactus .contactus-d > h2 {
+  color: white;
+  border-bottom: 2px solid #875a98;
+  display: inline;
+
+}
+.contactus .contactus-d > p {
+  padding-top: 20px;
+  color: rgba(221, 221, 221, 0.553); }
+
 
 
 #contact-us-form {
