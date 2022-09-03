@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*{
     margin:0;
     padding:0;
@@ -115,6 +116,8 @@ nav img{
 /*.topnav{
 =======
 }*/
+=======
+>>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
 .topnav{
 >>>>>>> 58cced456af3577945778d46175247ec8e152c41
     background-color: #ffffff;
@@ -122,15 +125,15 @@ nav img{
     box-shadow:0px 2px 2px rgb(175, 174, 174);
 }
 .topnav .navv a{
-    float: right;
-    display: block;
-    color: white;
+    position: relative;
+    left: 500px;
+    display: inline;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 25px 8px;
     font-size: 15px;
 }
-
 .topnav .icon{
     display: none;
 }
@@ -227,32 +230,62 @@ nav img{
  margin: 10px;
 }
 /*------------code here to make the nav responsive ------------*/
+/* @media screen and (max-width: 600px) {
+  .topnav ,.navv a:not(:first-child) , .ourteam .ourteambtn , .expertise .expertisebtn , .careers .careersbtn  {
+    display: none;
+  }
+  .topnav a.icon , .navlogo {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on
+ small screens (display the links vertically instead of horizontally) */
+ /*@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #875a98;
+  }
+  .topnav.responsive .navv a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .ourteam , .expertise , .careers {float: none;}
+  .topnav.responsive .ourteam-content , .expertise-content , .careers-content  {position: relative;}
+  .topnav.responsive .ourteam .ourteambtn , .expertise .expertisebtn , .careers .careersbtn{
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
  
 
  /*--------------code here to make the nav responsive-------------- */
 
 .testimonial-background{
-  background-image: linear-gradient( rgba(4, 9, 30, 0.7), rgba(225, 225, 225, 0.1)),url('\gavel_3.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode: luminosity;
-  font-family: 'Lato', sans-serif;
-  color: white;
+    background-color: #875a98;
+    margin-top: 300px;
     
 }
-
+ body {
+   font-family: 'Droid Serif', serif;
+ }
  
  h1 {
    font-size: 60px;
    text-align: center;
-   padding-top: 100px;
+   padding-top: 100px;;
  }
- .source{
-  font-weight: 700;
-  font-size: 30px;
- }
+<<<<<<< HEAD
  .content-slider {  /*the size of the testimonial box*/
+=======
+ 
+ .content-slider {
+>>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
    width: 100%;
    height: 250px;
  }
@@ -562,73 +595,37 @@ nav img{
   padding: 5px;
 }
 
-
 /*-------footer------*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-
-footer{
-  background: #592a51;
-  height: auto;
-  width: 100vw;
-  padding-top: 20px;
-  color: white;
-
-}
-
-.footer-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content h3{
-  font-size: 14px;
-
-}
-
-.footer-content p{
-  max-width: 500px;
-  margin: 10px auto;
-}
-
-.socials{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 1rem 0 3rem 0;
-}
-
-.socials li{
-  margin: 0 20px;
-}
-
-.socials a{
-  text-decoration: none;
-  color: white;
-}
-
-.socials a i{
-  font-size: 1.1rem;
-  transition: color .4s ease;
-
-}
-
-.socials a:hover i{
-  color: rgb(60, 179, 179);
-}
-
-.footer-bottom{
-  background: hsl(310, 36%, 23%);
+  .footer-content {
+    background: black;
+    padding: 5px;
+  }
+  .footer-content .socials {
+    text-align: center;
   
+<<<<<<< HEAD
 }
 h3{
   text-align: center;
 }
+=======
+  }
+  .footer-content .socials a {
+    color: #ccc;
+    padding: 0px 5px;
+    height: 10px;
+    width: 10px;
+    line-height: 20p;
+    text-align: center;
+    margin: 0.8px;
+    opacity: 0.80;
+    font-size: 20px;
+  }
+  .footer-content .socials a:hover{
+    color: #875a98;
+  }
+  .footer-content .copyright {
+    color: rgba(204, 204, 204, 0.553);
+    padding-top: 5px;
+  }
+>>>>>>> 57a876b61666ce26d2fbb5b97542b019db5cfce5
