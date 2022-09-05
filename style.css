@@ -224,11 +224,43 @@ nav img{
  
 
  /*--------------code here to make the nav responsive-------------- */
+ /*------------------header ---------------------------------------*/
+ .hero{
+  background-image: url(header.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+ }
+ .hero > h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+ }
+ .hero > p{
+  color: white;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  padding: 20px;
+  font-size: 20px;
+ }
+ #herobtn{
+  position: absolute;
+  right: 45%;
+ }
+ #herobtn:hover{
+  color: black;
+  background-color: #875a98;
+  border: 1px solid black;
+
+ }
 
 .testimonial-background{
     background-color: #875a98;
     margin-top: 300px;
-    
+    background-image: url(gavel_1.jpg);
 }
  body {
    font-family: 'Droid Serif', serif;
